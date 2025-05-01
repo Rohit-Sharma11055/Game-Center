@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #1a1a40;
+}
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.had{
+    margin-top: 3%;
+    color: #fff;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: #2F4F4F;
+    border-radius: 1rem;
+    background-color: #FFA07A;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+}
+.btn{
+    padding: 0.9rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 1rem;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 6vmin;
+}
+.msg-container{
+    height: 13vmin;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+} 
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 530px) and (min-height:700px) and (max-height:1200px){
+    .game{
+        width: 80vmin;
+    }
+    .container{
+        height: 40vh;
+    }
+    .had{
+        margin-top: 15%;
+    }
+    .msg-container{
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:500px) and (max-height:700px) {
+    .container{
+        height: 60vh;
+    }
+    .game{
+        width: 80vmin;
+    }
+    .msg-container{
+        margin-top: 15%;
+    }
+    .had{
+        margin-top: 15%;
+    }
+    
+}

@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    border: border-box;
+    background-color: #fff;
+    color: black;
+}
+.head{
+    height: 6rem;
+    width: 100%;
+    background-color: #2C2C2C;
+    margin-bottom: 10vh;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    width: auto;
+    font-size: 2rem;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.option{
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.option:hover{
+    opacity: 0.5;
+}
+
+.herosection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.herosection img{ 
+    height: 60vh;
+    width: 40vw;
+    margin-left: 5%;
+    border: 2px solid black;
+}
+.dataclass{
+    background: linear-gradient(to right, red, purple);
+    margin-left: 5%;
+    width: 42vw;
+    color: white;
+    padding: 1%;
+}
+.data{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 4%;
+    padding-top: 13%;
+    width: 39vw;
+    height: 41vh;
+    background-color: #2C2C2C;
+}
+.games img{
+    height: 45vh;
+    aspect-ratio: 5/3;
+}
+
+.page2{
+    background-color: #2C2C2C;
+    padding-top: 3%;
+    margin-top: 5%;
+}
+
+.games{
+    display: flex;
+    padding-top: 4%;
+    justify-content: space-between;  
+}
+
+.gam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    gap: 3rem;
+}
+
+.tictac{
+    margin-left: 5%;
+}
+
+.stone{
+    margin-right: 5%;
+} 
+h2{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 3%;
+    text-decoration: underline;
+    /* background-color: #fff; */
+}
