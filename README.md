@@ -11,7 +11,7 @@ Welcome to **Game Centre**, a nostalgic web-based mini arcade featuring two clas
 - **❌⭕ Tic Tac Toe**
   - Two-player mode (on the same device).
   - Simple game logic with win/draw detection.
-  - Clean and responsive grid design.
+  - Clean and responsive design.
 
 ## 🎨 Theme
 
